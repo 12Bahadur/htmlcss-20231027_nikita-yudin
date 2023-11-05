@@ -1,0 +1,6 @@
+main {
+    background: var(--grey-1);
+    width: 1440px;
+    height: 1036px;
+    flex-shrink: 0;
+}

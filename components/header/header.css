@@ -1,3 +1,15 @@
-body {
-    background: var(--grey-3);
+.title {
+    color: var(--black);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+}
+.title_level_1 {
+    font-size: 50px;
+    line-height: 64px;
+    margin: 0 auto;
+}
+.header__title {
+    margin-top: 38px;
+    margin-bottom: 40px;
 }
