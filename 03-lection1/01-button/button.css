@@ -22,14 +22,14 @@ button:active {
     color: var(--red); 
     transition: color 300ms ease-in-out;
 }
-.dis_cursor {
+.dis-btn {
     cursor: not-allowed;
 }
 .primary {
     background: var(--primary);
     opacity: 0.8;
 }
-.primary:hover {
+.primary:hover:not(.dis-btn) {
     background: blue;
 }
 .primary_dis:disabled {
@@ -40,7 +40,7 @@ button:active {
     background: var(--purple);
     opacity: 0.6;
 }
-.secondary:hover {
+.secondary:hover:not(.dis-btn) {
     background: hsl(288, 98%, 50%);
 }
 .secondary_dis:disabled {
@@ -52,7 +52,7 @@ button:active {
     border: 2px solid var(--grey-3);
     color:var(--black);
 }
-.alternate:hover {
+.alternate:hover:not(.dis-btn) {
     border: 3px solid var(--black);
 }
 .alternate_dis:disabled {
