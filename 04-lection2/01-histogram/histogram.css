@@ -3,7 +3,7 @@
     border: 1px solid var(--grey-3);
     border-radius: 7px;
 }
-.graphics {
+.histogram__graphics {
     margin: 39px 29px 15px 26px;
     height: 50px;
     display: flex;
@@ -11,7 +11,7 @@
     gap: 1px;
 
 }
-.graphics__item {
+.histogram__item {
     width: 9px;
     background: var(--blue-2);
 }
@@ -21,6 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    opacity: 0.8;
 }
 
 .description_bottom {
