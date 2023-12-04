@@ -1,7 +1,3 @@
-body {
-    text-align: center;
-}
-
 .tooltip {
     display: inline-block;
     position: relative;
@@ -12,7 +8,8 @@ body {
 }
 
 .tooltip__bubble {
-    width: 129px;
+    width: max-content;
+    max-width: 300px;
     box-sizing: border-box;
     color: var(--Gray-2, #DDE2E5);
     text-align: center;
